@@ -8,13 +8,19 @@
   <script src="app.js" defer></script>
 </head>
 <body>
-  <header>
-    <h1>Welcome to Shoppy McShopFace</h1>
-    <p>Your one-stop shop prototype.</p>
+  <header id="header">
+    <div class="hero">
+      <h1>Welcome to Shoppy McShopFace</h1>
+      <p>Your one-stop shop prototype.</p>
+      <a href="#products" class="btn-primary">Shop Now</a>
+    </div>
     <nav>
-      <ul style="list-style: none; display: flex; gap: 1rem; justify-content: center; padding: 0;">
+      <ul>
         <li><a href="#products">Products</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -40,13 +46,59 @@
     </div>
   </section>
 
+  <section id="features">
+    <h2>Why Shop With Us?</h2>
+    <ul class="features-list">
+      <li><strong>Free Shipping:</strong> On all orders over $50.</li>
+      <li><strong>24/7 Support:</strong> Our team is here to help anytime.</li>
+      <li><strong>Secure Payments:</strong> Shop with confidence.</li>
+      <li><strong>Easy Returns:</strong> Hassle-free 30-day returns.</li>
+    </ul>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-list">
+      <blockquote>
+        <p>"Amazing products and fast delivery! I love the headphones."</p>
+        <footer>— Shoppy 1</footer>
+      </blockquote>
+      <blockquote>
+        <p>"Customer service was super helpful when I had questions."</p>
+        <footer>— Shoppy 2</footer>
+      </blockquote>
+      <blockquote>
+        <p>"Great shopping experience overall. Highly recommend!"</p>
+        <footer>— Shoppy 3</footer>
+      </blockquote>
+    </div>
+  </section>
+
   <section id="about">
     <h2>About Shoppy McShopFace</h2>
-    <p>We’re passionate about connecting people through social shopping.</p>
+    <p>We’re passionate about connecting people through social shopping. Our goal is to make your shopping experience enjoyable, easy, and social.</p>
+    <p>Follow us on social media and join our growing community for exclusive deals and updates!</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form" action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
   </section>
 
   <footer>
-    <p>&copy; 2025 Shoppy McShopFace. All rights reserved.</p>
+    <div class="footer-content">
+      <p>&copy; 2025 Shoppy McShopFace. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" aria-label="Facebook" title="Facebook" class="social-icon">🔵</a>
+        <a href="#" aria-label="Twitter" title="Twitter" class="social-icon">🐦</a>
+        <a href="#" aria-label="Instagram" title="Instagram" class="social-icon">📸</a>
+      </div>
+    </div>
   </footer>
   <!-- TODO: clean up test config files - removed .env -->
 </body>
