@@ -1,7 +1,7 @@
-# Shoppy McShopFace
+# Shoppy McShopFace 🛍️
 
-An open-source e-commerce platform focused on social shopping experiences.
+Welcome to the early prototype for our new storefront concept.
 
-This repository contains the core frontend and backend code.
+Still very much a work-in-progress. Just testing things out right now.
 
-Feel free to explore and proivde feedback!
+> Note: Don’t forget to clean up dev stuff before pushing public! 🧹
