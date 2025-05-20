@@ -49,3 +49,15 @@ h1, h2, h3 {
   color: #27ae60;
   font-weight: bold;
 }
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+}
